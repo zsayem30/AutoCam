@@ -1,0 +1,1 @@
+/home/autocam/dvrk2.1_ws/devel/.private/dvrk_python/share/dvrk_python/cmake/dvrk_pythonConfig-version.cmake

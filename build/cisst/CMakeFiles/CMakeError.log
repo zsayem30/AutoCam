@@ -1,0 +1,397 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee1aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee1aa.dir/build.make CMakeFiles/cmTC_ee1aa.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ee1aa.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/usr/include/qt4 -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_ee1aa.dir/CheckSymbolExists.cxx.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_ee1aa.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_ee1aa.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ee1aa.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_ee1aa/fast' failed
+make: *** [cmTC_ee1aa/fast] Error 2
+
+
+File /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68ef5/fast && /usr/bin/make  -f CMakeFiles/cmTC_68ef5.dir/build.make CMakeFiles/cmTC_68ef5.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68ef5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/usr/include/qt4 -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_68ef5.dir/CheckSymbolExists.cxx.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_68ef5.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_68ef5.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_68ef5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_68ef5/fast' failed
+make: *** [cmTC_68ef5/fast] Error 2
+
+
+File /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_96b6e/fast && /usr/bin/make  -f CMakeFiles/cmTC_96b6e.dir/build.make CMakeFiles/cmTC_96b6e.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96b6e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++  -I/usr/include/qt4 -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_96b6e.dir/CheckSymbolExists.cxx.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_96b6e.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_96b6e.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_96b6e.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_96b6e/fast' failed
+make: *** [cmTC_96b6e/fast] Error 2
+
+
+File /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9f5a7/fast && /usr/bin/make  -f CMakeFiles/cmTC_9f5a7.dir/build.make CMakeFiles/cmTC_9f5a7.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f5a7.dir/test_size_t_int.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_9f5a7.dir/test_size_t_int.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned int p) {
+                                    ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(long long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long long int p) {
+                                              ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+Linking CXX executable cmTC_9f5a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f5a7.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -Wextra -Wall  -rdynamic CMakeFiles/cmTC_9f5a7.dir/test_size_t_int.cpp.o -o cmTC_9f5a7 
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_349b8/fast && /usr/bin/make  -f CMakeFiles/cmTC_349b8.dir/build.make CMakeFiles/cmTC_349b8.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_349b8.dir/test_size_t_long.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_349b8.dir/test_size_t_long.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:41: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long int p) {
+                                         ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:16: error: redefinition of ‘char method(size_t)’
+           char method(size_t p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:16: note: ‘char method(long unsigned int)’ previously defined here
+           char method(unsigned long int p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+CMakeFiles/cmTC_349b8.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_349b8.dir/test_size_t_long.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_349b8.dir/test_size_t_long.cpp.o] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_349b8/fast' failed
+make: *** [cmTC_349b8/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aee77/fast && /usr/bin/make  -f CMakeFiles/cmTC_aee77.dir/build.make CMakeFiles/cmTC_aee77.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aee77.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aee77.dir/src.c.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aee77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aee77.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_aee77.dir/src.c.o -o cmTC_aee77 
+CMakeFiles/cmTC_aee77.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aee77.dir/build.make:98: recipe for target 'cmTC_aee77' failed
+make[1]: *** [cmTC_aee77] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_aee77/fast' failed
+make: *** [cmTC_aee77/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_369fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_369fb.dir/build.make CMakeFiles/cmTC_369fb.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_369fb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_369fb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_369fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_369fb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_369fb.dir/CheckFunctionExists.c.o -o cmTC_369fb  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_369fb.dir/build.make:98: recipe for target 'cmTC_369fb' failed
+make[1]: *** [cmTC_369fb] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_369fb/fast' failed
+make: *** [cmTC_369fb/fast] Error 2
+
+
+
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_580c5/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_580c5.dir/build.make CMakeFiles/cmTC_580c5.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_580c5.dir/test_size_t_int.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_580c5.dir/test_size_t_int.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned int p) {
+                                    ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(long long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long long int p) {
+                                              ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+Linking CXX executable cmTC_580c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_580c5.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -Wextra -Wall  -rdynamic CMakeFiles/cmTC_580c5.dir/test_size_t_int.cpp.o -o cmTC_580c5 
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52bf6/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_52bf6.dir/build.make CMakeFiles/cmTC_52bf6.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52bf6.dir/test_size_t_long.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_52bf6.dir/test_size_t_long.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:41: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long int p) {
+                                         ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:16: error: redefinition of ‘char method(size_t)’
+           char method(size_t p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:16: note: ‘char method(long unsigned int)’ previously defined here
+           char method(unsigned long int p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+CMakeFiles/cmTC_52bf6.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_52bf6.dir/test_size_t_long.cpp.o' failed
+make[2]: *** [CMakeFiles/cmTC_52bf6.dir/test_size_t_long.cpp.o] Error 1
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_52bf6/fast' failed
+make[1]: *** [cmTC_52bf6/fast] Error 2
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4278e/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_4278e.dir/build.make CMakeFiles/cmTC_4278e.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4278e.dir/test_size_t_int.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_4278e.dir/test_size_t_int.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned int p) {
+                                    ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(long long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long long int p) {
+                                              ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+Linking CXX executable cmTC_4278e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4278e.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -Wextra -Wall  -rdynamic CMakeFiles/cmTC_4278e.dir/test_size_t_int.cpp.o -o cmTC_4278e 
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e0100/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e0100.dir/build.make CMakeFiles/cmTC_e0100.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0100.dir/test_size_t_long.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_e0100.dir/test_size_t_long.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:41: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long int p) {
+                                         ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:16: error: redefinition of ‘char method(size_t)’
+           char method(size_t p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:16: note: ‘char method(long unsigned int)’ previously defined here
+           char method(unsigned long int p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+CMakeFiles/cmTC_e0100.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_e0100.dir/test_size_t_long.cpp.o' failed
+make[2]: *** [CMakeFiles/cmTC_e0100.dir/test_size_t_long.cpp.o] Error 1
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_e0100/fast' failed
+make[1]: *** [cmTC_e0100/fast] Error 2
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cb14e/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_cb14e.dir/build.make CMakeFiles/cmTC_cb14e.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb14e.dir/test_size_t_int.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_cb14e.dir/test_size_t_int.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned int p) {
+                                    ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(long long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long long int p) {
+                                              ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_int.cpp:8:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+Linking CXX executable cmTC_cb14e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb14e.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -Wextra -Wall  -rdynamic CMakeFiles/cmTC_cb14e.dir/test_size_t_int.cpp.o -o cmTC_cb14e 
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+Change Dir: /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_86284/fast && make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_86284.dir/build.make CMakeFiles/cmTC_86284.dir/build
+make[2]: Entering directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86284.dir/test_size_t_long.cpp.o
+/usr/bin/c++   -fPIC -Wextra -Wall  -o CMakeFiles/cmTC_86284.dir/test_size_t_long.cpp.o -c /home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(long unsigned int)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:41: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long int p) {
+                                         ^
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp: In function ‘char method(size_t)’:
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:16: error: redefinition of ‘char method(size_t)’
+           char method(size_t p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:2:16: note: ‘char method(long unsigned int)’ previously defined here
+           char method(unsigned long int p) {
+                ^~~~~~
+/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp/test_size_t_long.cpp:5:30: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(size_t p) {
+                              ^
+CMakeFiles/cmTC_86284.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_86284.dir/test_size_t_long.cpp.o' failed
+make[2]: *** [CMakeFiles/cmTC_86284.dir/test_size_t_long.cpp.o] Error 1
+make[2]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_86284/fast' failed
+make[1]: *** [cmTC_86284/fast] Error 2
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/cisst/CMakeFiles/CMakeTmp'
+
+
+

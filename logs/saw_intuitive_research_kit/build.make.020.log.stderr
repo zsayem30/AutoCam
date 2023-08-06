@@ -1,0 +1,7 @@
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:[m[K In member function ‘[01m[Kvoid mtsIntuitiveResearchKitConsole::UpdateTeleopState()[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:2364:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+             for ([01;31m[Ki[m[K = 0; i < 10; i++) {
+                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitConsole.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/all] Error 2
+make: *** [all] Error 2

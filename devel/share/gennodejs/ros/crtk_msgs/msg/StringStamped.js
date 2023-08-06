@@ -1,0 +1,1 @@
+/home/autocam/dvrk2.1_ws/devel/.private/crtk_msgs/share/gennodejs/ros/crtk_msgs/msg/StringStamped.js

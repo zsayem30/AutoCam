@@ -1,0 +1,5 @@
+cisst-saw/sawIntuitiveResearchKit/share
+/home/autocam/dvrk2.1_ws/devel/.private/dvrk_config/cmake.lock /home/autocam/dvrk2.1_ws/devel/./cmake.lock
+/home/autocam/dvrk2.1_ws/devel/.private/dvrk_config/lib/pkgconfig/dvrk_config.pc /home/autocam/dvrk2.1_ws/devel/lib/pkgconfig/dvrk_config.pc
+/home/autocam/dvrk2.1_ws/devel/.private/dvrk_config/share/dvrk_config/cmake/dvrk_configConfig.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_config/cmake/dvrk_configConfig.cmake
+/home/autocam/dvrk2.1_ws/devel/.private/dvrk_config/share/dvrk_config/cmake/dvrk_configConfig-version.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_config/cmake/dvrk_configConfig-version.cmake

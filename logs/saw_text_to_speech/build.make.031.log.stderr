@@ -1,0 +1,21 @@
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:44:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsGenericObjectProxy.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsStateArray.h:31[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsStateTable.h:32[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTask.h:36[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTaskContinuous.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTaskFromSignal.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawTextToSpeech/components/include/sawTextToSpeech/mtsTextToSpeech.h:23[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawTextToSpeech/components/code/mtsTextToSpeech.cpp:20[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRecursiveEngines.h:[m[K In constructor ‘[01m[KmtsTextToSpeech::mtsTextToSpeech()[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRecursiveEngines.h:473:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K<anonymous>[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             outputVector[_size-1] = [01;35m[K_elementOperationType::Operate(inputVector[_size-1])[m[K;
+                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRecursiveEngines.h:473:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)&<anonymous> +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             outputVector[_size-1] = [01;35m[K_elementOperationType::Operate(inputVector[_size-1])[m[K;
+                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,8 @@
+prefix=/home/autocam/dvrk2.1_ws/devel/.private/dvrk_gazebo_control
+
+Name: dvrk_gazebo_control
+Description: Description of dvrk_gazebo_control
+Version: 0.0.0
+Cflags: -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_gazebo_control/include
+Libs: -L${prefix}/lib 
+Requires: 

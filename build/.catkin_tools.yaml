@@ -1,0 +1,6 @@
+devel_space: /home/autocam/dvrk2.1_ws/devel
+install: false
+install_space: /home/autocam/dvrk2.1_ws/install
+profile: default
+source_space: /home/autocam/dvrk2.1_ws/src
+workspace: /home/autocam/dvrk2.1_ws

@@ -1,0 +1,15 @@
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:[m[K In constructor ‘[01m[KmtsIntuitiveResearchKitConsole::mtsIntuitiveResearchKitConsole(const string&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:572:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KmInterface[m[K’
+     [01;31m[KmInterface[m[K->SendStatus(this->GetName() + ": test");
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:[m[K At global scope:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:572:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmInterface[m[K’ does not name a type; did you mean ‘[01m[KmtsInterface[m[K’?
+     [01;31m[KmInterface[m[K->SendStatus(this->GetName() + ": test");
+     [01;31m[K^~~~~~~~~~[m[K
+     [32m[KmtsInterface[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:573:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+ [01;31m[K{[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitConsole.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/all] Error 2
+make: *** [all] Error 2

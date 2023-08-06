@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target info1394[0m
+[35m[1mConsolidate compiler generated dependencies of target block1394[0m
+[35m[1mConsolidate compiler generated dependencies of target time1394[0m
+[35m[1mConsolidate compiler generated dependencies of target Amp1394Console[0m
+[35m[1mConsolidate compiler generated dependencies of target Amp1394[0m
+[  3%] Built target info1394
+[  7%] Built target time1394
+[ 11%] Built target block1394
+[ 14%] Built target Amp1394Console
+[ 35%] Built target Amp1394
+[35m[1mConsolidate compiler generated dependencies of target qlacommand[0m
+[35m[1mConsolidate compiler generated dependencies of target fwPortTest[0m
+[35m[1mConsolidate compiler generated dependencies of target instrument[0m
+[35m[1mConsolidate compiler generated dependencies of target qlacloserelays[0m
+[35m[1mConsolidate compiler generated dependencies of target qlatest[0m
+[35m[1mConsolidate compiler generated dependencies of target qladisp[0m
+[35m[1mConsolidate compiler generated dependencies of target block1394eth[0m
+[35m[1mConsolidate compiler generated dependencies of target eth1394Test[0m
+[35m[1mConsolidate compiler generated dependencies of target enctest[0m
+[35m[1mConsolidate compiler generated dependencies of target pgm1394[0m
+[ 38%] Built target fwPortTest
+[ 42%] Built target qlacommand
+[ 46%] Built target qlatest
+[ 50%] Built target qladisp
+[ 53%] Built target block1394eth
+[ 57%] Built target enctest
+[35m[1mConsolidate compiler generated dependencies of target sawRobotIO1394[0m
+[ 61%] Built target eth1394Test
+[ 64%] Built target instrument
+[ 68%] Built target qlacloserelays
+[ 74%] Built target pgm1394
+[ 90%] Built target sawRobotIO1394
+[ 92%] [34m[1mAutomatic MOC for target sawRobotIO1394Qt[0m
+[ 92%] Built target sawRobotIO1394Qt_autogen
+[35m[1mConsolidate compiler generated dependencies of target sawRobotIO1394Qt[0m
+[100%] Built target sawRobotIO1394Qt

@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target cisst_ros_crtk[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/cisst_ros_crtk.dir/src/cisst_ros_crtk.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/cisst_ros_crtk.dir/src/mts_ros_crtk_bridge_provided.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cisst_ros_crtk.dir/src/mts_ros_crtk_bridge_required.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cisst_ros_crtk.dir/src/mtsCISSTToROS.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/cisst_ros_crtk.dir/src/mtsROSToCISST.cpp.o[0m
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_provided.cpp:[m[K In member function ‘[01m[Kvoid mts_ros_crtk_bridge_provided::add_connection_event_handler(const mtsDescriptionConnection&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_provided.cpp:543:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_connection[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void mts_ros_crtk_bridge_provided::add_connection_event_handler(const mtsDescriptionConnection & [01;35m[K_connection[m[K)
+                                                                                                  [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_required.cpp:[m[K In member function ‘[01m[Kvirtual void mts_ros_crtk_bridge_required::ConfigureJSON(const Json::Value&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge_required.cpp:67:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_json_config[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void mts_ros_crtk_bridge_required::ConfigureJSON(const Json::Value & [01;35m[K_json_config[m[K)
+                                                                      [01;35m[K^~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/autocam/dvrk2.1_ws/devel/.private/cisst_ros_crtk/lib/libcisst_ros_crtk.so[0m
+[100%] Built target cisst_ros_crtk

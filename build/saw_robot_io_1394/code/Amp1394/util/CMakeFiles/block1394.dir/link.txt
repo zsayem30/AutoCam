@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/block1394.dir/block1394.c.o -o /home/autocam/dvrk2.1_ws/devel/.private/saw_robot_io_1394/bin/block1394   -L/home/autocam/dvrk2.1_ws/build/cisst/lib  -Wl,-rpath,/home/autocam/dvrk2.1_ws/build/cisst/lib -lraw1394 

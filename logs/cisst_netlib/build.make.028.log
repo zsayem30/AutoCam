@@ -1,0 +1,4 @@
+[ 17%] Built target cisstNetlib_Fortran
+[ 34%] Built target cisstNetlib
+[ 45%] Built target cisstNetlib_lawson_hanson
+[100%] Built target cisstNetlib_hanson_haskell

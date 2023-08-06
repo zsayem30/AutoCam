@@ -1,0 +1,11 @@
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:[m[K In member function ‘[01m[Kvoid mtsIntuitiveResearchKitConsole::UpdateTeleopState()[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:2299:5:[m[K [01;31m[Kerror: [m[K‘[01m[KiterTeleopPSM[m[K’ was not declared in this scope
+     [01;31m[KiterTeleopPSM[m[K.second->state_command(std::string("disable"));
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:2299:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KTeleopPSM[m[K’
+     [01;36m[KiterTeleopPSM[m[K.second->state_command(std::string("disable"));
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[KTeleopPSM[m[K
+make[2]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitConsole.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/all] Error 2
+make: *** [all] Error 2

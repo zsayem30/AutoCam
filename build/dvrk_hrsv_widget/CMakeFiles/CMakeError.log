@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7705e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7705e.dir/build.make CMakeFiles/cmTC_7705e.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7705e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7705e.dir/src.c.o -c /home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7705e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7705e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7705e.dir/src.c.o -o cmTC_7705e 
+CMakeFiles/cmTC_7705e.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7705e.dir/build.make:98: recipe for target 'cmTC_7705e' failed
+make[1]: *** [cmTC_7705e] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_7705e/fast' failed
+make: *** [cmTC_7705e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fdfee/fast && /usr/bin/make  -f CMakeFiles/cmTC_fdfee.dir/build.make CMakeFiles/cmTC_fdfee.dir/build
+make[1]: Entering directory '/home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdfee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_fdfee.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fdfee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdfee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_fdfee.dir/CheckFunctionExists.c.o -o cmTC_fdfee  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fdfee.dir/build.make:98: recipe for target 'cmTC_fdfee' failed
+make[1]: *** [cmTC_fdfee] Error 1
+make[1]: Leaving directory '/home/autocam/dvrk2.1_ws/build/dvrk_hrsv_widget/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_fdfee/fast' failed
+make: *** [cmTC_fdfee/fast] Error 2
+
+
+

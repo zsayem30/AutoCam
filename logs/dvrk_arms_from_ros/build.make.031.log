@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target dvrk_arm_from_ros[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dvrk_arm_from_ros.dir/src/dvrk_arm_from_ros.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/dvrk_arm_from_ros.dir/src/dvrk_psm_from_ros.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autocam/dvrk2.1_ws/devel/.private/dvrk_arms_from_ros/lib/libdvrk_arm_from_ros.so[0m
+[100%] Built target dvrk_arm_from_ros

@@ -1,0 +1,10 @@
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:[m[K In member function ‘[01m[Kvoid mtsIntuitiveResearchKitConsole::UpdateTeleopState()[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:2360:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcan[m[K’
+     this [01;31m[Kcan[m[K be used for HEC with noticeable lag
+          [01;31m[K^~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/sawIntuitiveResearchKit/components/code/mtsIntuitiveResearchKitConsole.cpp:2366:5:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+     [01;35m[K}[m[K
+     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/code/mtsIntuitiveResearchKitConsole.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sawIntuitiveResearchKit.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,21 @@
+[ 17%] Built target cisstNetlib_Fortran
+[ 71%] Built target cisstNetlib_hanson_haskell
+[ 91%] Built target cisstNetlib_lawson_hanson
+[35m[1mConsolidate compiler generated dependencies of target cisstNetlib[0m
+[100%] Built target cisstNetlib
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/include/cisstNetlib.h
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/include/cisstNetlib/cisstNetlib-types.h
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/include/cisstNetlib/cisstNetlib-lapack.h
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/include/cisstNetlib/cisstNetlib-hanson-haskell.h
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/include/cisstNetlib/cisstNetlib-lawson-hanson.h
+-- Installing: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_lapack.a
+-- Installing: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_blas.a
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_gfortran.so
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_gcc.a
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_quadmath.a
+-- Up-to-date: /home/autocam/dvrk2.1_ws/devel/cmake/CisstNetlibConfig.cmake
+-- Installing: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_hanson_haskell.a
+-- Installing: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib_lawson_hanson.a
+-- Installing: /home/autocam/dvrk2.1_ws/devel/lib/libcisstNetlib.a

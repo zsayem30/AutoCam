@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/autocam/dvrk2.1_ws/devel/.private/dvrk_config/setup.sh

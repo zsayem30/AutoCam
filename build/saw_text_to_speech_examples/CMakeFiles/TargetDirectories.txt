@@ -1,0 +1,13 @@
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/edit_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/rebuild_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/list_install_components.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/install.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/install/local.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/CMakeFiles/install/strip.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/sawTextToSpeechExampleKeyboard.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/edit_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/rebuild_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/list_install_components.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/install.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/install/local.dir
+/home/autocam/dvrk2.1_ws/build/saw_text_to_speech_examples/keyboard/CMakeFiles/install/strip.dir

@@ -1,0 +1,9 @@
+[ 16%] [34m[1mAutomatic MOC for target sawIntuitiveResearchKitDerivedPSM[0m
+[ 16%] Built target sawIntuitiveResearchKitDerivedPSM_autogen
+[35m[1mConsolidate compiler generated dependencies of target sawIntuitiveResearchKitDerivedPSM[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sawIntuitiveResearchKitDerivedPSM.dir/code/mtsDerivedPSM.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sawIntuitiveResearchKitDerivedPSM.dir/sawIntuitiveResearchKitDerivedPSM_autogen/mocs_compilation.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sawIntuitiveResearchKitDerivedPSM.dir/code/mtsDerivedPSMQtWidget.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sawIntuitiveResearchKitDerivedPSM.dir/code/mtsDerivedPSMROSBridge.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/autocam/dvrk2.1_ws/devel/.private/saw_intuitive_research_kit_example_psm_derived/lib/libsawIntuitiveResearchKitDerivedPSM.so[0m
+[100%] Built target sawIntuitiveResearchKitDerivedPSM

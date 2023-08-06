@@ -1,0 +1,4 @@
+Symlinking /home/autocam/dvrk2.1_ws/devel/lib/dvrk_gazebo_control/dvrk_gazebo_control_node
+Symlinking /home/autocam/dvrk2.1_ws/devel/lib/pkgconfig/dvrk_gazebo_control.pc
+Symlinking /home/autocam/dvrk2.1_ws/devel/share/dvrk_gazebo_control/cmake/dvrk_gazebo_controlConfig.cmake
+Symlinking /home/autocam/dvrk2.1_ws/devel/share/dvrk_gazebo_control/cmake/dvrk_gazebo_controlConfig-version.cmake

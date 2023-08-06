@@ -1,0 +1,631 @@
+Cloning into 'cisstReflexxesTypeIIExternal'...
+HEAD is now at 09d4a63 Use static library for Windows
+[0mCMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at ReflexxesTypeII/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaPipeExec.cpp:[m[K In member function ‘[01m[Kbool osaPipeExec::Open(const string&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, bool)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaPipeExec.cpp:186:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnoWindow[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+                        bool [01;35m[KnoWindow[m[K)
+                             [01;35m[K^~~~~~~~[m[K
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:112: Warning 503: Can't wrap 'operator const value_type&' unless renamed to a valid identifier.
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaSocket.cpp:[m[K In member function ‘[01m[Kint osaSocket::SendAsPackets(const char*, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaSocket.cpp:538:15:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         if ([01;35m[Kn != packetSize[m[K)
+             [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaSocket.cpp:[m[K In member function ‘[01m[Kint osaSocket::ReceiveAsPackets(std::__cxx11::string&, char*, unsigned int, double, double)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstOSAbstraction/code/osaSocket.cpp:676:18:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         while ([01;35m[Kn == packetSize[m[K) {
+                [01;35m[K~~^~~~~~~~~~~~~[m[K
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstMatrixRef.h:30:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrix.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3Base.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/code/vctMatrixRotation3ConstBase.cpp:23[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrixBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::operator*(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<double, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrixBase.h:169:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, double, double*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, double, double*>::Data[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+         return this->[01;35m[KData[m[K;
+                      [01;35m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3Base.h:28:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/code/vctMatrixRotation3ConstBase.cpp:23[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::ApplyTo(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<float, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:199:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, float, float*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, float, float*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         return [01;35m[Kresult[m[K;
+                [01;35m[K^~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::ApplyInverseTo(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<float, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:326:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, float, float*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, float, float*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         return [01;35m[Kresult[m[K;
+                [01;35m[K^~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::ApplyInverseTo(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<double, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:326:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, double, double*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, double, double*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         return [01;35m[Kresult[m[K;
+                [01;35m[K^~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::ApplyTo(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<double, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:199:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, double, double*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, double, double*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         return [01;35m[Kresult[m[K;
+                [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstMatrixRef.h:30:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrix.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3ConstBase.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctMatrixRotation3Base.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/code/vctMatrixRotation3ConstBase.cpp:23[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrixBase.h:[m[K In member function ‘[01m[KvctMatrixRotation3ConstBase<_containerType>::ThisType vctMatrixRotation3ConstBase<_containerType>::operator*(const ThisType&) const [with _containerType = vctFixedSizeMatrixRef<float, 3, 3, 4, 1>][m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeMatrixBase.h:169:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeMatrixBase<3, 3, 4, 1, float, float*>::<anonymous>.vctFixedSizeConstMatrixBase<3, 3, 4, 1, float, float*>::Data[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+         return this->[01;35m[KData[m[K;
+                      [01;35m[K^~~~[m[K
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:[m[K In member function ‘[01m[Kint msh3Mesh::LoadMeshFromSTLFile(const string&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:882:41:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression < 0 is always false [[01;35m[K-Wtype-limits[m[K]
+             if ([01;35m[KmapResult.first->second < 0[m[K) {
+                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:[m[K In member function ‘[01m[Kvoid msh3Mesh::ReadSURMeshFile(const char*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1018:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf(fp, "%d\n", &vert_n)[m[K; // off file
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1023:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf(fp, "%f %f %f\n", &f1, &f2, &f3)[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1027:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf(fp, "%d\n", &face_n)[m[K; // sur file
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1035:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kchar* fgets(char*, int, FILE*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfgets(buff, 1024, fp)[m[K;
+         [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:[m[K In member function ‘[01m[Kvoid msh3Mesh::ReadSFCMeshFile(const char*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1058:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf(fp, "%d\n", &vert_n)[m[K; // off file
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1063:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf(fp, "%f %f %f\n", &f1, &f2, &f3)[m[K;
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1067:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf(fp, "%d\n", &face_n)[m[K; // sur file
+     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:1076:15:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint fscanf(FILE*, const char*, ...)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf(fp, "%d %d %d\n", &a, &b, &c)[m[K; d = e = f = -1;  // rht hack to get around not having neighbors
+         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Utilities.cpp:[m[K In function ‘[01m[KvctDoubleVec ComputeInverseTrilinearInterp(const vct3&, const vctDynamicVector<vctFixedSizeVector<double, 3> >&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Utilities.cpp:595:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 1; [01;35m[Ki < weights.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:[m[K In member function ‘[01m[Kbool msh3Mesh::CheckConvexity(int, int)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& vec2 +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:19:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& vec2 +16)[m[K’ was declared here
+         vct3 vec1,[01;36m[Kvec2[m[K;
+                   [01;36m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& vec2 +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:19:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& vec2 +8)[m[K’ was declared here
+         vct3 vec1,[01;36m[Kvec2[m[K;
+                   [01;36m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvec2[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:19:[m[K [01;36m[Knote: [m[K‘[01m[Kvec2[m[K’ was declared here
+         vct3 vec1,[01;36m[Kvec2[m[K;
+                   [01;36m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& vec1 +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:14:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& vec1 +16)[m[K’ was declared here
+         vct3 [01;36m[Kvec1[m[K,vec2;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& vec1 +8)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:14:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& vec1 +8)[m[K’ was declared here
+         vct3 [01;36m[Kvec1[m[K,vec2;
+              [01;36m[K^~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorBase.h:40:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorBase.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstVectorRef.h:30[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVector.h:28[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorTypes.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:42[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctBinaryOperations.h:125:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvec1[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+             return OutputType(input1*input2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/code/msh3Mesh.cpp:37:0[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/msh3Mesh.h:192:14:[m[K [01;36m[Knote: [m[K‘[01m[Kvec1[m[K’ was declared here
+         vct3 [01;36m[Kvec1[m[K,vec2;
+              [01;36m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsMailBox.cpp:[m[K In member function ‘[01m[Kvoid mtsMailBox::TriggerPostQueuedCommandIfNeeded(bool, bool)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsMailBox.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisBlocking[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void mtsMailBox::TriggerPostQueuedCommandIfNeeded(bool [01;35m[KisBlocking[m[K, bool isBlockingReturn)
+                                                        [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsMailBox.cpp:202:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KisBlockingReturn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void mtsMailBox::TriggerPostQueuedCommandIfNeeded(bool isBlocking, bool [01;35m[KisBlockingReturn[m[K)
+                                                                         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robQLQRn.cpp:[m[K In member function ‘[01m[Kvirtual void robQLQRn::Blend(robFunction*, double, double)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robQLQRn.cpp:123:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfunction[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void robQLQRn::Blend( robFunction* [01;35m[Kfunction[m[K, double vmax, double vdmax ){
+                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robQLQRn.cpp:123:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvmax[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void robQLQRn::Blend( robFunction* function, double [01;35m[Kvmax[m[K, double vdmax ){
+                                                     [01;35m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robQLQRn.cpp:123:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvdmax[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void robQLQRn::Blend( robFunction* function, double vmax, double [01;35m[Kvdmax[m[K ){
+                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robReflexxes.cpp:[m[K In member function ‘[01m[Kvoid robReflexxes::Set(const vctDoubleVec&, const vctDoubleVec&, const vctDoubleVec&, double, robReflexxes::SynchronizationType)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRobot/code/robReflexxes.cpp:104:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksynchronization[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+                        const SynchronizationType [01;35m[Ksynchronization[m[K)
+                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsManagerLocal.cpp:[m[K In member function ‘[01m[Kbool mtsManagerLocal::ConnectManagerComponentClientToServer()[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsManagerLocal.cpp:786:13:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+             [01;35m[Kif[m[K (!ManagerComponent.Server) {
+             [01;35m[K^~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/code/mtsManagerLocal.cpp:800:9:[m[K [01;36m[Knote: [m[Khere
+         [01;36m[Kcase[m[K LCM_CONFIG_NETWORKED:
+         [01;36m[K^~~~[m[K
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+In file included from [01m[K/usr/include/python2.7/numpy/ndarrayobject.h:27:0[m[K,
+                 from [01m[K/usr/include/python2.7/numpy/arrayobject.h:4[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPythonUtilities.h:46[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPython.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMesh/mshPython.h:29[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstMesh/codePython/CMakeFiles/_cisstMeshPython.dir/cisstMeshPYTHON_wrap.cxx:5167[m[K:
+[01m[K/usr/include/python2.7/numpy/__multiarray_api.h:1453:1:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint _import_array()[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+ [01;35m[K_import_array[m[K(void)
+ [01;35m[K^~~~~~~~~~~~~[m[K
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsExecutionResult.h:120: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsInterfaceProvided.h:697: Warning 312: Nested struct not currently supported (ignored).
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:51: Warning 325: Nested struct not currently supported (ManagementStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:57: Warning 325: Nested struct not currently supported (LogStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:69: Warning 325: Nested struct not currently supported (GetterStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:77: Warning 325: Nested struct not currently supported (EventStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerLocal.h:186: Warning 312: Nested struct not currently supported (ignored).
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsCollectorBase.h:83: Warning 325: Nested class not currently supported (SignalMapElement ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsCollectorState.h:56: Warning 325: Nested struct not currently supported (SignalElement ignored)
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:116: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:222: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:336: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:441: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:497: Warning 317: Specialization of non-template 'less'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:575: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:696: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:806: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:908: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1013: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1121: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1227: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1339: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1454: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsComponentState.h:137: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:92: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:194: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:296: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:401: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:503: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:608: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:707: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:809: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:958: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:1080: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsStateIndex.h:114: Warning 384: operator-- ignored
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:39: Warning 401: Nothing known about base class 'vctDoubleQuat'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:41: Warning 401: Nothing known about base class 'vctFloatQuat'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:43: Warning 401: Nothing known about base class 'vctDoubleQuatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:45: Warning 401: Nothing known about base class 'vctFloatQuatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:47: Warning 401: Nothing known about base class 'vctDoubleAxAnRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:49: Warning 401: Nothing known about base class 'vctFloatAxAnRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:51: Warning 401: Nothing known about base class 'vctDoubleRodRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:53: Warning 401: Nothing known about base class 'vctFloatRodRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:55: Warning 401: Nothing known about base class 'vctDoubleMatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:59: Warning 401: Nothing known about base class 'vctFloatMatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:61: Warning 401: Nothing known about base class 'vctDoubleQuatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:63: Warning 401: Nothing known about base class 'vctFloatQuatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:69: Warning 401: Nothing known about base class 'vctFloatMatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:71: Warning 401: Nothing known about base class 'vctDoubleFrm4x4'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:73: Warning 401: Nothing known about base class 'vctFloatFrm4x4'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:75: Warning 401: Nothing known about base class 'vctDoubleAnRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:77: Warning 401: Nothing known about base class 'vctFloatAnRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:79: Warning 401: Nothing known about base class 'vctDoubleMatRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:81: Warning 401: Nothing known about base class 'vctFloatMatRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsExecutionResult.h:169: Warning 503: Can't wrap 'mtsExecutionResult::Enum' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstCommon/cmnGenericObjectProxy.h:101: Warning 362: operator= ignored
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsExecutionResult.h:120: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsInterfaceProvided.h:697: Warning 312: Nested struct not currently supported (ignored).
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:51: Warning 325: Nested struct not currently supported (ManagementStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:57: Warning 325: Nested struct not currently supported (LogStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:69: Warning 325: Nested struct not currently supported (GetterStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerComponentServices.h:77: Warning 325: Nested struct not currently supported (EventStruct ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsManagerLocal.h:186: Warning 312: Nested struct not currently supported (ignored).
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsCollectorBase.h:83: Warning 325: Nested class not currently supported (SignalMapElement ignored)
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsCollectorState.h:56: Warning 325: Nested struct not currently supported (SignalElement ignored)
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:116: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:222: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:336: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:441: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:497: Warning 317: Specialization of non-template 'less'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:575: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:696: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:806: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:908: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1013: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1121: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1227: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1339: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:1454: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsComponentState.h:137: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:92: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:194: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:296: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:401: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:503: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:608: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:707: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:809: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:958: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsInterfaceCommon.h:1080: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsStateIndex.h:114: Warning 384: operator-- ignored
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionCartesianGet.h:112: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmVelocityCartesianGet.h:142: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointGet.h:112: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:202: Warning 317: Specialization of non-template 'cmnData'.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmTransformationManager.h:80: Warning 319: No access specifier given for base class 'cmnGenericObject' (ignored).
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:39: Warning 401: Nothing known about base class 'vctDoubleQuat'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:41: Warning 401: Nothing known about base class 'vctFloatQuat'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:43: Warning 401: Nothing known about base class 'vctDoubleQuatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:45: Warning 401: Nothing known about base class 'vctFloatQuatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:47: Warning 401: Nothing known about base class 'vctDoubleAxAnRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:49: Warning 401: Nothing known about base class 'vctFloatAxAnRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:51: Warning 401: Nothing known about base class 'vctDoubleRodRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:53: Warning 401: Nothing known about base class 'vctFloatRodRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:55: Warning 401: Nothing known about base class 'vctDoubleMatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:59: Warning 401: Nothing known about base class 'vctFloatMatRot3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:61: Warning 401: Nothing known about base class 'vctDoubleQuatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:63: Warning 401: Nothing known about base class 'vctFloatQuatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:69: Warning 401: Nothing known about base class 'vctFloatMatFrm3'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:71: Warning 401: Nothing known about base class 'vctDoubleFrm4x4'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:73: Warning 401: Nothing known about base class 'vctFloatFrm4x4'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:75: Warning 401: Nothing known about base class 'vctDoubleAnRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:77: Warning 401: Nothing known about base class 'vctFloatAnRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:79: Warning 401: Nothing known about base class 'vctDoubleMatRot2'. Ignored.
+/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsTransformationTypes.h:81: Warning 401: Nothing known about base class 'vctFloatMatRot2'. Ignored.
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/codeQt/prmPositionCartesianGetQtWidgetFactory.cpp:[m[K In constructor ‘[01m[KprmPositionCartesianGetQtWidgetFactory::prmPositionCartesianGetQtWidgetFactory(const string&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/codeQt/prmPositionCartesianGetQtWidgetFactory.cpp:36:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krequired[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     mtsInterfaceRequired * [01;35m[Krequired[m[K = EnableDynamicComponentManagement();
+                            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetDeceleration(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:26594:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetDeceleration(vctDynamicVector<double>&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetDeceleration(*arg2[01;35m[K)[m[K;
+                                                             [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:99:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetDeceleration[m[K(vctDynamicVector<double> & placeHolder) const;
+                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetDeceleration(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:26704:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetDeceleration(const vctDynamicVector<double>&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetDeceleration((vctDynamicVector< double > const &)*arg2[01;35m[K)[m[K;
+                                                                    [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:100:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetDeceleration[m[K(const vctDynamicVector<double> & newValue);
+                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_Deceleration__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:26742:94:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst vctDynamicVector<double>& prmPositionJointSet::Deceleration() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (vctDynamicVector< double > *) &((prmPositionJointSet const *)arg1)->Deceleration([01;35m[K)[m[K;
+                                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:102:56:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const vctDynamicVector<double> & [01;36m[KDeceleration[m[K(void) const;
+                                                        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_Deceleration__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:26780:65:[m[K [01;35m[Kwarning: [m[K‘[01m[KvctDynamicVector<double>& prmPositionJointSet::Deceleration()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (vctDynamicVector< double > *) &(arg1)->Deceleration([01;35m[K)[m[K;
+                                                                 [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:103:50:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED vctDynamicVector<double> & [01;36m[KDeceleration[m[K(void);
+                                                  [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetMask(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:26896:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetMask(vctDynamicVector<bool>&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetMask(*arg2[01;35m[K)[m[K;
+                                                     [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:109:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetMask[m[K(vctDynamicVector<bool> & placeHolder) const;
+                            [01;36m[K^~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetMask(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27006:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetMask(const vctDynamicVector<bool>&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetMask((vctDynamicVector< bool > const &)*arg2[01;35m[K)[m[K;
+                                                          [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:110:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetMask[m[K(const vctDynamicVector<bool> & newValue);
+                            [01;36m[K^~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_Mask__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27044:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst vctDynamicVector<bool>& prmPositionJointSet::Mask() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (vctDynamicVector< bool > *) &((prmPositionJointSet const *)arg1)->Mask([01;35m[K)[m[K;
+                                                                                    [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:112:54:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const vctDynamicVector<bool> & [01;36m[KMask[m[K(void) const;
+                                                      [01;36m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_Mask__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27082:55:[m[K [01;35m[Kwarning: [m[K‘[01m[KvctDynamicVector<bool>& prmPositionJointSet::Mask()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (vctDynamicVector< bool > *) &(arg1)->Mask([01;35m[K)[m[K;
+                                                       [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:113:48:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED vctDynamicVector<bool> & [01;36m[KMask[m[K(void);
+                                                [01;36m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetBlockingFlag(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27168:61:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetBlockingFlag(prmBlocking&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetBlockingFlag(*arg2[01;35m[K)[m[K;
+                                                             [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:119:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetBlockingFlag[m[K(prmBlocking & placeHolder) const;
+                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetBlockingFlag(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27201:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetBlockingFlag(const prmBlocking&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetBlockingFlag((prmBlocking const &)*arg2[01;35m[K)[m[K;
+                                                     [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:120:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetBlockingFlag[m[K(const prmBlocking & newValue);
+                            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_BlockingFlag__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27223:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst prmBlocking& prmPositionJointSet::BlockingFlag() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (prmBlocking *) &((prmPositionJointSet const *)arg1)->BlockingFlag([01;35m[K)[m[K;
+                                                                               [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:122:43:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const prmBlocking & [01;36m[KBlockingFlag[m[K(void) const;
+                                           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_BlockingFlag__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27245:50:[m[K [01;35m[Kwarning: [m[K‘[01m[KprmBlocking& prmPositionJointSet::BlockingFlag()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (prmBlocking *) &(arg1)->BlockingFlag([01;35m[K)[m[K;
+                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:123:37:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED prmBlocking & [01;36m[KBlockingFlag[m[K(void);
+                                     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetBlendingFactor(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27318:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetBlendingFactor(bool&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetBlendingFactor(*arg2[01;35m[K)[m[K;
+                                                               [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:129:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetBlendingFactor[m[K(bool & placeHolder) const;
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetBlendingFactor(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27350:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetBlendingFactor(const bool&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetBlendingFactor((bool const &)*arg2[01;35m[K)[m[K;
+                                                [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:130:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetBlendingFactor[m[K(const bool & newValue);
+                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_BlendingFactor__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27372:74:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst bool& prmPositionJointSet::BlendingFactor() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &((prmPositionJointSet const *)arg1)->BlendingFactor([01;35m[K)[m[K;
+                                                                          [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:132:36:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const bool & [01;36m[KBlendingFactor[m[K(void) const;
+                                    [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_BlendingFactor__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27394:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool& prmPositionJointSet::BlendingFactor()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &(arg1)->BlendingFactor([01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:133:30:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED bool & [01;36m[KBlendingFactor[m[K(void);
+                              [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetIsPreemptable(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27467:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetIsPreemptable(bool&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetIsPreemptable(*arg2[01;35m[K)[m[K;
+                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:139:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetIsPreemptable[m[K(bool & placeHolder) const;
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetIsPreemptable(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27499:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetIsPreemptable(const bool&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetIsPreemptable((bool const &)*arg2[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:140:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetIsPreemptable[m[K(const bool & newValue);
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_IsPreemptable__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27521:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst bool& prmPositionJointSet::IsPreemptable() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &((prmPositionJointSet const *)arg1)->IsPreemptable([01;35m[K)[m[K;
+                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:142:36:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const bool & [01;36m[KIsPreemptable[m[K(void) const;
+                                    [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_IsPreemptable__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27543:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool& prmPositionJointSet::IsPreemptable()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &(arg1)->IsPreemptable([01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:143:30:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED bool & [01;36m[KIsPreemptable[m[K(void);
+                              [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_GetIsGoalOnly(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27616:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::GetIsGoalOnly(bool&) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   ((prmPositionJointSet const *)arg1)->GetIsGoalOnly(*arg2[01;35m[K)[m[K;
+                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:149:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KGetIsGoalOnly[m[K(bool & placeHolder) const;
+                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetIsGoalOnly(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27648:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetIsGoalOnly(const bool&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetIsGoalOnly((bool const &)*arg2[01;35m[K)[m[K;
+                                            [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:150:28:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED void [01;36m[KSetIsGoalOnly[m[K(const bool & newValue);
+                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_IsGoalOnly__SWIG_0(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27670:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst bool& prmPositionJointSet::IsGoalOnly() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &((prmPositionJointSet const *)arg1)->IsGoalOnly([01;35m[K)[m[K;
+                                                                      [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:152:36:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED const bool & [01;36m[KIsGoalOnly[m[K(void) const;
+                                    [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_IsGoalOnly__SWIG_1(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27692:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool& prmPositionJointSet::IsGoalOnly()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool *) &(arg1)->IsGoalOnly([01;35m[K)[m[K;
+                                         [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:153:30:[m[K [01;36m[Knote: [m[Kdeclared here
+      CISST_DEPRECATED bool & [01;36m[KIsGoalOnly[m[K(void);
+                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_new_prmPositionJointSet__SWIG_2(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27754:63:[m[K [01;35m[Kwarning: [m[K‘[01m[KprmPositionJointSet::prmPositionJointSet(size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (prmPositionJointSet *)new prmPositionJointSet(arg1[01;35m[K)[m[K;
+                                                               [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:157:33:[m[K [01;36m[Knote: [m[Kdeclared here
+         inline CISST_DEPRECATED [01;36m[KprmPositionJointSet[m[K(const size_t size) {
+                                 [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_prmPositionJointSet_SetSize(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:27828:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid prmPositionJointSet::SetSize(size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   (arg1)->SetSize(arg2[01;35m[K)[m[K;
+                       [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:46:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/include/cisstParameterTypes/prmPositionJointSet.h:161:38:[m[K [01;36m[Knote: [m[Kdeclared here
+         void inline CISST_DEPRECATED [01;36m[KSetSize[m[K(const size_t size) {
+                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstMatrixBase.h:30:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPythonUtilities.h:60[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPython.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:[m[K In function ‘[01m[KPyObject* _wrap_prmForceCartesianGet_F(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:95:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeVectorBase<3, 1, double, double*>::<anonymous>.vctFixedSizeConstVectorBase<3, 1, double, double*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         [01;35m[Kthis[m[K->Data = p;
+         [01;35m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:22450:35:[m[K [01;36m[Knote: [m[K‘[01m[Kresult.vctFixedSizeVectorBase<3, 1, double, double*>::<anonymous>.vctFixedSizeConstVectorBase<3, 1, double, double*>::Data[m[K’ was declared here
+   prmForceCartesianGet::ForceType [01;36m[Kresult[m[K;
+                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeConstMatrixBase.h:30:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPythonUtilities.h:60[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctPython.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstParameterTypes/prmPython.h:33[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:5687[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:[m[K In function ‘[01m[KPyObject* _wrap_prmForceCartesianGet_T(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstVector/vctFixedSizeVectorRef.h:95:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult.vctFixedSizeVectorBase<3, 1, double, double*>::<anonymous>.vctFixedSizeConstVectorBase<3, 1, double, double*>::Data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+         [01;35m[Kthis[m[K->Data = p;
+         [01;35m[K^~~~[m[K
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstParameterTypes/codePython/CMakeFiles/_cisstParameterTypesPython.dir/cisstParameterTypesPYTHON_wrap.cxx:22534:36:[m[K [01;36m[Knote: [m[K‘[01m[Kresult.vctFixedSizeVectorBase<3, 1, double, double*>::<anonymous>.vctFixedSizeConstVectorBase<3, 1, double, double*>::Data[m[K’ was declared here
+   prmForceCartesianGet::TorqueType [01;36m[Kresult[m[K;
+                                    [01;36m[K^~~~~~[m[K
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsParameterTypes.h:745: Warning 503: Can't wrap 'mtsComponentStatusControl::ComponentStatusCommand' unless renamed to a valid identifier.
+/home/autocam/dvrk2.1_ws/build/cisst/include/cisstMultiTask/mtsComponentState.h:186: Warning 503: Can't wrap 'mtsComponentState::Enum' unless renamed to a valid identifier.
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:[m[K In function ‘[01m[KPyObject* _wrap_mtsComponent_Running(PyObject*, PyObject*)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:29250:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool mtsComponent::Running() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   result = (bool)((mtsComponent const *)arg1)->Running([01;35m[K)[m[K;
+                                                        [01;35m[K^[m[K
+In file included from [01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsPython.h:51:0[m[K,
+                 from [01m[K/home/autocam/dvrk2.1_ws/build/cisst/cisstMultiTask/codePython/CMakeFiles/_cisstMultiTaskPython.dir/cisstMultiTaskPYTHON_wrap.cxx:5715[m[K:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstMultiTask/mtsComponent.h:457:34:[m[K [01;36m[Knote: [m[Kdeclared here
+     inline bool CISST_DEPRECATED [01;36m[KRunning[m[K(void) const {
+                                  [01;36m[K^~~~~~~[m[K

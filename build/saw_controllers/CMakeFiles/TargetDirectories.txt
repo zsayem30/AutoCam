@@ -1,0 +1,15 @@
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/sawControllers.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/edit_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/rebuild_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/list_install_components.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/install.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/install/local.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/CMakeFiles/install/strip.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/sawControllersQt.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/edit_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/rebuild_cache.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/list_install_components.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/install.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/install/local.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/install/strip.dir
+/home/autocam/dvrk2.1_ws/build/saw_controllers/code/Qt/CMakeFiles/sawControllersQt_autogen.dir

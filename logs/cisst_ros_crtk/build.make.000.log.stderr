@@ -1,0 +1,4 @@
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge.cpp:[m[K In member function ‘[01m[Kvoid mts_ros_crtk_bridge::add_connection_event_handler(const mtsDescriptionConnection&)[m[K’:
+[01m[K/home/autocam/dvrk2.1_ws/src/cisst-saw/cisst-ros/cisst_ros_crtk/src/mts_ros_crtk_bridge.cpp:548:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_connection[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void mts_ros_crtk_bridge::add_connection_event_handler(const mtsDescriptionConnection & [01;35m[K_connection[m[K)
+                                                                                         [01;35m[K^~~~~~~~~~~[m[K

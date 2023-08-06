@@ -1,0 +1,12 @@
+cisst-saw/cisst
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/cisstvars.csh /home/autocam/dvrk2.1_ws/devel/./cisstvars.csh
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/cisstvars.sh /home/autocam/dvrk2.1_ws/devel/./cisstvars.sh
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstForwardKinematics /home/autocam/dvrk2.1_ws/devel/bin/cisstForwardKinematics
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstKinematicsIdentification /home/autocam/dvrk2.1_ws/devel/bin/cisstKinematicsIdentification
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstLogger /home/autocam/dvrk2.1_ws/devel/bin/cisstLogger
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstRobotSensorCalibration /home/autocam/dvrk2.1_ws/devel/bin/cisstRobotSensorCalibration
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstComponentManager /home/autocam/dvrk2.1_ws/devel/bin/cisstComponentManager
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstRandomJoints /home/autocam/dvrk2.1_ws/devel/bin/cisstRandomJoints
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/bin/cisstDataGenerator /home/autocam/dvrk2.1_ws/devel/bin/cisstDataGenerator
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/cmake/cisst-config.cmake /home/autocam/dvrk2.1_ws/devel/cmake/cisst-config.cmake
+/home/autocam/dvrk2.1_ws/devel/.private/cisst/cmake/cisst-config-version.cmake /home/autocam/dvrk2.1_ws/devel/cmake/cisst-config-version.cmake

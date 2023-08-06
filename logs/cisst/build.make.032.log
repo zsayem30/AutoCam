@@ -1,0 +1,86 @@
+[  0%] [34m[1mCopying data files from images to /home/autocam/dvrk2.1_ws/build/cisst/share/cisst-1.1/images[0m
+[  2%] Built target cisstReflexxesTypeIIExternal
+[  2%] [34m[1mGenerating /home/autocam/dvrk2.1_ws/build/cisst/include/cisstRevision.h from /home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstRevision.h.in[0m
+[  2%] [34m[1mGenerating /home/autocam/dvrk2.1_ws/build/cisst/include/cisstBuildType.h from /home/autocam/dvrk2.1_ws/src/cisst-saw/cisst/cisstBuildType.h.in[0m
+[  3%] [34m[1mCopying data files from models to /home/autocam/dvrk2.1_ws/build/cisst/share/cisst-1.1/models[0m
+[  3%] [34m[1mCopying data files from movies to /home/autocam/dvrk2.1_ws/build/cisst/share/cisst-1.1/movies[0m
+-- Build type is: Release
+Build suffix is: .
+-- Found Git revision: 1.1.0-20-g4947d8f7e
+[  3%] Built target cisstBuildType
+[  3%] Built target copy_data_movies
+[  3%] Built target cisstRevision
+[  3%] Built target copy_data_images
+[35m[1mConsolidate compiler generated dependencies of target cisstDataGenerator[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstCommon[0m
+[  3%] Built target copy_data_models
+[  9%] Built target cisstDataGenerator
+[ 15%] Built target cisstCommon
+[35m[1mConsolidate compiler generated dependencies of target cisstCommonXML[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstCommonQt[0m
+[ 16%] Built target cisstCommonPython_swig_compilation
+[ 16%] Built target cisstCommonXML
+[35m[1mConsolidate compiler generated dependencies of target cisstOSAbstraction[0m
+[35m[1mConsolidate compiler generated dependencies of target _cisstCommonPython[0m
+[ 17%] Built target cisstCommonQt
+[35m[1mConsolidate compiler generated dependencies of target cisstVector[0m
+[ 17%] Built target _cisstCommonPython
+[ 22%] Built target cisstOSAbstraction
+[ 22%] Built target cisstOSAbstractionPython_swig_compilation
+[ 27%] Built target cisstVector
+[35m[1mConsolidate compiler generated dependencies of target _cisstOSAbstractionPython[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstVectorFLTK[0m
+[ 28%] [34m[1mAutomatic MOC for target cisstVectorQt[0m
+[ 28%] Built target cisstVectorPython_swig_compilation
+[ 28%] Built target _cisstOSAbstractionPython
+[ 29%] Built target cisstVectorFLTK
+[ 29%] Built target cisstVectorQt_autogen
+[35m[1mConsolidate compiler generated dependencies of target _cisstVectorPython[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstNumerical[0m
+[ 30%] Built target _cisstVectorPython
+[35m[1mConsolidate compiler generated dependencies of target cisstVectorQt[0m
+[ 35%] Built target cisstNumerical
+[ 35%] Built target cisstNumericalPython_swig_compilation
+[35m[1mConsolidate compiler generated dependencies of target cisstMultiTask[0m
+[35m[1mConsolidate compiler generated dependencies of target _cisstNumericalPython[0m
+[ 38%] Built target cisstVectorQt
+[35m[1mConsolidate compiler generated dependencies of target cisstRobot[0m
+[ 39%] Built target _cisstNumericalPython
+[35m[1mConsolidate compiler generated dependencies of target cisstMesh[0m
+[ 44%] Built target cisstRobot
+[35m[1mConsolidate compiler generated dependencies of target cisstRandomJoints[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstRobotSensorCalibration[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstForwardKinematics[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstKinematicsIdentification[0m
+[ 45%] Built target cisstRobotPython_swig_compilation
+[ 45%] Built target cisstRobotSensorCalibration
+[ 46%] Built target cisstRandomJoints
+[ 47%] Built target cisstKinematicsIdentification
+[ 47%] Built target cisstForwardKinematics
+[35m[1mConsolidate compiler generated dependencies of target _cisstRobotPython[0m
+[ 47%] Built target _cisstRobotPython
+[ 58%] Built target cisstMesh
+[ 76%] Built target cisstMultiTask
+[ 76%] Built target cisstMeshPython_swig_compilation
+[35m[1mConsolidate compiler generated dependencies of target cisstComponentManager[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstLogger[0m
+[35m[1mConsolidate compiler generated dependencies of target _cisstMeshPython[0m
+[ 76%] Built target cisstMultiTaskPython_swig_compilation
+[ 77%] [34m[1mAutomatic MOC for target cisstMultiTaskQt[0m
+[ 78%] Built target cisstLogger
+[ 78%] Built target cisstComponentManager
+[35m[1mConsolidate compiler generated dependencies of target _cisstMultiTaskPython[0m
+[ 78%] Built target cisstMultiTaskQt_autogen
+[ 79%] Built target _cisstMeshPython
+[ 79%] Built target _cisstMultiTaskPython
+[35m[1mConsolidate compiler generated dependencies of target cisstParameterTypes[0m
+[35m[1mConsolidate compiler generated dependencies of target cisstMultiTaskQt[0m
+[ 91%] Built target cisstParameterTypes
+[ 91%] Built target cisstParameterTypesPython_swig_compilation
+[ 92%] [34m[1mAutomatic MOC for target cisstParameterTypesQt[0m
+[ 96%] Built target cisstMultiTaskQt
+[35m[1mConsolidate compiler generated dependencies of target _cisstParameterTypesPython[0m
+[ 96%] Built target cisstParameterTypesQt_autogen
+[ 97%] Built target _cisstParameterTypesPython
+[35m[1mConsolidate compiler generated dependencies of target cisstParameterTypesQt[0m
+[100%] Built target cisstParameterTypesQt

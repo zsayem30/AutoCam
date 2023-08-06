@@ -1,0 +1,8 @@
+prefix=/home/autocam/dvrk2.1_ws/install
+
+Name: dvrk_description
+Description: Description of dvrk_description
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
