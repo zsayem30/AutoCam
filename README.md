@@ -1,3 +1,11 @@
+# Setup: 
+Setup the dvrk Workspace by following the instruction in the dvrk wiki:
+
+https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki/CatkinBuild
+
+We are using the 2.1 dvrk build so please pay heed to the `vcs` command i.e:
+`vcs import --recursive --input https://raw.githubusercontent.com/jhu-dvrk/dvrk-github-workflow/main/vcs/ros1-dvrk-2.1.0.vcs`
+
 # Running console configuration file:
 Running the designated console configuration file for hand eye coordination transforms:
 In one terminal run `roscore`.
@@ -31,7 +39,7 @@ To run the script:
 1. First home the MTMs:
 `python home_MTMs.py`
 2. Then wait a couple of minutes and run:
-`python teleoperation.py`
+`python frame_Transform.py`
 
 # Testing scripts for autonomous control:
 The scripts used for testing autonomous control can be found in:
