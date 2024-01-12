@@ -1,2 +1,0 @@
-cisst-saw/sawIntuitiveResearchKit/examples/derivedTeleOperationPSM/components
-/home/autocam/dvrk2.1_ws/devel/.private/saw_intuitive_research_kit_example_derived_teleop_psm/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so /home/autocam/dvrk2.1_ws/devel/lib/libsawIntuitiveResearchKitDerivedTeleOperationPSM.so

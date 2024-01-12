@@ -1,5 +1,0 @@
-dvrk_env/dvrk_description
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_description/cmake.lock /home/autocam/dvrk2.1_ws/devel/./cmake.lock
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_description/lib/pkgconfig/dvrk_description.pc /home/autocam/dvrk2.1_ws/devel/lib/pkgconfig/dvrk_description.pc
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_description/share/dvrk_description/cmake/dvrk_descriptionConfig.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_description/cmake/dvrk_descriptionConfig.cmake
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_description/share/dvrk_description/cmake/dvrk_descriptionConfig-version.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_description/cmake/dvrk_descriptionConfig-version.cmake

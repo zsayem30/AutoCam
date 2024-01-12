@@ -1,6 +1,0 @@
-dvrk-ros/dvrk_hrsv_widget
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_hrsv_widget/cmake.lock /home/autocam/dvrk2.1_ws/devel/./cmake.lock
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_hrsv_widget/lib/dvrk_hrsv_widget/hrsv_widget /home/autocam/dvrk2.1_ws/devel/lib/dvrk_hrsv_widget/hrsv_widget
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_hrsv_widget/lib/pkgconfig/dvrk_hrsv_widget.pc /home/autocam/dvrk2.1_ws/devel/lib/pkgconfig/dvrk_hrsv_widget.pc
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig-version.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig-version.cmake
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_hrsv_widget/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig.cmake /home/autocam/dvrk2.1_ws/devel/share/dvrk_hrsv_widget/cmake/dvrk_hrsv_widgetConfig.cmake
