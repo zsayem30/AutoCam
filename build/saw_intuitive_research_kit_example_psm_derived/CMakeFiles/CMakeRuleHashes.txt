@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-de11adbff08320a0328144cd8fc66f40 CMakeFiles/clean_test_results
-2e3700bb71180acbcee55c5d054e2618 CMakeFiles/sawIntuitiveResearchKitDerivedPSM_autogen

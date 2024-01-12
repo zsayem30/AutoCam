@@ -1,1 +1,0 @@
-/usr/bin/f95  -fPIC -O2 -DNDEBUG -O2 CMakeFiles/xblat1d.dir/dblat1.f.o -o ../../bin/xblat1d  ../../lib/libblas.a -lm 

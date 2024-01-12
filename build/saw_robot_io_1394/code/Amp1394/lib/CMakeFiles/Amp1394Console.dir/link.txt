@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/autocam/dvrk2.1_ws/devel/.private/saw_robot_io_1394/lib/libAmp1394Console.a CMakeFiles/Amp1394Console.dir/code/Amp1394Console.cpp.o
-/usr/bin/ranlib /home/autocam/dvrk2.1_ws/devel/.private/saw_robot_io_1394/lib/libAmp1394Console.a

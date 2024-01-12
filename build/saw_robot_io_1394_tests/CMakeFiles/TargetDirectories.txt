@@ -1,2 +1,0 @@
-/home/autocam/dvrk2.1_ws/build/saw_robot_io_1394_tests/CMakeFiles/edit_cache.dir
-/home/autocam/dvrk2.1_ws/build/saw_robot_io_1394_tests/CMakeFiles/rebuild_cache.dir

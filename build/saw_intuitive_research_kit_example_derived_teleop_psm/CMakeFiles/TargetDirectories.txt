@@ -1,3 +1,0 @@
-/home/autocam/dvrk2.1_ws/build/saw_intuitive_research_kit_example_derived_teleop_psm/CMakeFiles/sawIntuitiveResearchKitDerivedTeleOperationPSM.dir
-/home/autocam/dvrk2.1_ws/build/saw_intuitive_research_kit_example_derived_teleop_psm/CMakeFiles/edit_cache.dir
-/home/autocam/dvrk2.1_ws/build/saw_intuitive_research_kit_example_derived_teleop_psm/CMakeFiles/rebuild_cache.dir

@@ -1,8 +1,0 @@
-prefix=/home/autocam/dvrk2.1_ws/install
-
-Name: saw_intuitive_research_kit_example_psm_derived
-Description: Description of saw_intuitive_research_kit_example_psm_derived
-Version: 2.1.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lsaw_intuitive_research_kit_example_psm_derived
-Requires: cisst_ros_crtk roscpp roslib

@@ -1,8 +1,0 @@
-prefix=/home/autocam/dvrk2.1_ws/install
-
-Name: dvrk_config
-Description: Description of dvrk_config
-Version: 2.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
