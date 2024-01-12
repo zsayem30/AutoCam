@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/sim_ros_interface/lib/pkgconfig/sim_ros_interface.pc

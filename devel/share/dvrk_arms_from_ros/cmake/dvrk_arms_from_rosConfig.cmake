@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_arms_from_ros/share/dvrk_arms_from_ros/cmake/dvrk_arms_from_rosConfig.cmake

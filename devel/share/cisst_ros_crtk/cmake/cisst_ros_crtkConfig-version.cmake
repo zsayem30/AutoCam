@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/cisst_ros_crtk/share/cisst_ros_crtk/cmake/cisst_ros_crtkConfig-version.cmake

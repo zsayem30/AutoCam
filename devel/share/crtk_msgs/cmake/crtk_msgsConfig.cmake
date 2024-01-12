@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/crtk_msgs/share/crtk_msgs/cmake/crtk_msgsConfig.cmake

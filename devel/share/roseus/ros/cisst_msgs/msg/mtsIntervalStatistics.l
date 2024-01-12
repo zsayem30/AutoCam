@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/cisst_msgs/share/roseus/ros/cisst_msgs/msg/mtsIntervalStatistics.l

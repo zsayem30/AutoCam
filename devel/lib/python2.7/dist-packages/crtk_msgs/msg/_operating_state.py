@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/crtk_msgs/lib/python2.7/dist-packages/crtk_msgs/msg/_operating_state.py

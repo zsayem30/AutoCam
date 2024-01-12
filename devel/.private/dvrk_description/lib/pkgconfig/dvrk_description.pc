@@ -1,8 +1,0 @@
-prefix=/home/autocam/dvrk2.1_ws/devel/.private/dvrk_description
-
-Name: dvrk_description
-Description: Description of dvrk_description
-Version: 0.0.0
-Cflags: -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/dvrk -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/ecm -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/suj -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/mtm -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/psm -I/home/autocam/dvrk2.1_ws/src/dvrk_env/dvrk_description/tool_lnd
-Libs: -L${prefix}/lib 
-Requires: 

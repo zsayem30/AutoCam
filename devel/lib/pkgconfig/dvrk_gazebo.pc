@@ -1,1 +1,0 @@
-/home/autocam/dvrk2.1_ws/devel/.private/dvrk_gazebo/lib/pkgconfig/dvrk_gazebo.pc
